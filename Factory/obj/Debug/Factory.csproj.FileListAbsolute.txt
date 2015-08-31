@@ -1,0 +1,9 @@
+c:\users\opolskiy\documents\visual studio 2013\Projects\Factory\Factory\bin\Debug\Factory.exe.config
+c:\users\opolskiy\documents\visual studio 2013\Projects\Factory\Factory\bin\Debug\Factory.exe
+c:\users\opolskiy\documents\visual studio 2013\Projects\Factory\Factory\bin\Debug\Factory.pdb
+c:\users\opolskiy\documents\visual studio 2013\Projects\Factory\Factory\obj\Debug\Factory.csprojResolveAssemblyReference.cache
+c:\users\opolskiy\documents\visual studio 2013\Projects\Factory\Factory\obj\Debug\Factory.exe
+c:\users\opolskiy\documents\visual studio 2013\Projects\Factory\Factory\obj\Debug\Factory.pdb
+C:\Users\Opolskiy\Desktop\patternfactory\Factory\bin\Debug\Factory.exe.config
+C:\Users\Opolskiy\Desktop\patternfactory\Factory\obj\Debug\Factory.exe
+C:\Users\Opolskiy\Desktop\patternfactory\Factory\obj\Debug\Factory.pdb

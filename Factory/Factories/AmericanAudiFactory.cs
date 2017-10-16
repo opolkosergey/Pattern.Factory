@@ -3,19 +3,20 @@ using Factory.PartsFactory;
 
 namespace Factory.Factories
 {
-    class AmericanAudiFactory : AudiFactory
+    public class AmericanAudiFactory : AudiFactory
     {
         public override Car CreateCar(string type)
         {
-            PartsCarFactory factory = new AmericanPartsCarFactory();
+            PartsCarFactory partsCarFactory = new AmericanPartsCarFactory();
 
             switch (type)
             {
-                case "AmericanAudiA4": return new AmericanAudiA4(factory); 
-                case "AmericanAudiA6": return new AmericanAudiA6(factory); 
-                case "AmericanAudiA7": return new AmericanAudiA7(factory); 
-                case "AmericanAudiTT": return new AmericanAudiTT(factory); 
+                case "AmericanAudiA4": return new AmericanAudiA4(partsCarFactory); 
+                case "AmericanAudiA6": return new AmericanAudiA6(partsCarFactory); 
+                case "AmericanAudiA7": return new AmericanAudiA7(partsCarFactory); 
+                case "AmericanAudiTT": return new AmericanAudiTT(partsCarFactory); 
             }
+
             return null;
         }
     }

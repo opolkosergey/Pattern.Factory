@@ -2,9 +2,9 @@
 
 namespace Factory.Parts
 {
-    public class Wheels18inch : Wheels
+    public class Wheels18Inch : Wheels
     {
-        public Wheels18inch()
+        public Wheels18Inch()
         {
             Console.WriteLine("Wheels are R18");
         }

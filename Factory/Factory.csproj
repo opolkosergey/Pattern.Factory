@@ -63,9 +63,9 @@
     <Compile Include="Parts\GreyPaint.cs" />
     <Compile Include="Parts\Paint.cs" />
     <Compile Include="Parts\Wheels.cs" />
-    <Compile Include="Parts\Wheels16inch.cs" />
-    <Compile Include="Parts\Wheels17inch.cs" />
-    <Compile Include="Parts\Wheels18inch.cs" />
+    <Compile Include="Parts\Wheels16Inch.cs" />
+    <Compile Include="Parts\Wheels17Inch.cs" />
+    <Compile Include="Parts\Wheels18Inch.cs" />
     <Compile Include="Parts\WhitePaint.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

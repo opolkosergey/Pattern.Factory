@@ -16,7 +16,7 @@ namespace Factory.PartsFactory
 
         public override Wheels CreateWheels()
         {
-            return new Wheels18inch();
+            return new Wheels18Inch();
         }
     }
 }

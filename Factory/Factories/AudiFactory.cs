@@ -2,11 +2,13 @@
 
 namespace Factory.Factories
 {
-    abstract class AudiFactory
+    public abstract class AudiFactory
     {
+        public abstract Car CreateCar(string type);
+
         public Car GetCar(string type)
         {
-            Car car = CreateCar(type);
+            var car = CreateCar(type);
 
             car.InstallBody();
             car.InstallEngine();
@@ -16,7 +18,5 @@ namespace Factory.Factories
 
             return car;
         }
-
-        public abstract Car CreateCar(string type);
     }
 }

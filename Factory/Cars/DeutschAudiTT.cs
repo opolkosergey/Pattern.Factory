@@ -1,5 +1,4 @@
-﻿using System;
-using Factory.PartsFactory;
+﻿using Factory.PartsFactory;
 
 namespace Factory.Cars
 {
